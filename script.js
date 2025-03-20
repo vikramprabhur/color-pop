@@ -2,14 +2,11 @@ let hasGeneratedCircles = false;
 let intervalID;
 
 const colors = [
-  "red",
-  "blue",
-  "green",
-  "violet",
-  "purple",
-  "orange",
-  "pink",
-  "cyan",
+    "red", "blue", "green", "amber", "purple",
+    "orange", "lavenderBlush", "cyan", "magenta", "lime",
+    "teal", "indigo", "brown", "gold", "violet",
+    "coral", "turquoise", "salmon", "maroon", "navy",
+    "olive", "orchid", "sienna", "plum", "skyblue"
 ];
 
 function generateCircle() {
